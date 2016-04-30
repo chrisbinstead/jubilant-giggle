@@ -1,0 +1,192 @@
+body {
+	position: relative;
+	background-image: url(../images/dark-blue-background.jpg);
+}
+
+
+/*navigation set*/
+#name { 
+  margin-top: 10px !important ;
+  color: white !important;
+  font-family: Comic Sans MS !important;
+  font-size: 2.5em !important;
+  position:right !important;
+  }
+#mepics{
+	margin-top:60px !important;
+}
+	
+	
+.navbar-inverse .nav li a {
+  text-transform: uppercase;
+  font-family: Montserrat 
+  font-weight: 100;
+  color: silver;
+}
+
+.navbar-inverse .nav li a:hover {
+  color: silver;
+}
+
+
+.navbar-default {
+    background-color: transparent;
+}
+
+*/
+
+.navbar-nav {
+  text-align: center !important;
+}
+
+.navbar ul li {
+  font-size: 1.2em;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #fed136;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: transparent;
+}
+/*END OF NAVIGATION SET/*
+
+/* Home*/
+
+#home {
+  background-image: url('http://www.cmbsystems.co.za/backgrounds/blue.jpg'); /*need to change this jsut here to give a idea on feel and look*/
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 700px;
+  background-attachment: fixed;
+}
+
+/*only for webkit  browsers*/
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  #home {
+    background-attachment: scroll;
+  }
+}
+
+.intro-home {
+	color: gray !important;
+}
+#me_myself&chris {
+	position: cenetr;
+	color:#666
+
+}
+
+
+ul.footer-social-icons > li {
+  display: inline-block;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.footer-social-icons li a {
+	color: #009;
+}
+
+.footer-social-icons li a:hover {
+	color: #999999;
+}
+/*home end */
+
+
+#connect{
+	background-color: #CCC;
+	
+}
+
+/* Source code
+
+footer-sourcecode{
+  display: inline-block;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.footer-footer-sourcecode {
+	color: #009;
+}
+
+.footer-footer-sourcecode{
+	color: #999999;
+}
+
+#sourcecode{
+	background-color: ;
+	
+ */
+
+#body #home .intro-header .bg-overlay .container .row #name .intro-home .subtitle .text-center {
+
+}
+#body #home .intro-header .bg-overlay .container .row #name .intro-home .text-center {
+	font-size: xx-large;
+	font-weight: bolder;
+	text-transform: capitalize;
+
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, main {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
